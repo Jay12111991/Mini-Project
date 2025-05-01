@@ -1,1 +1,4 @@
 # Mini-Project
+Title : Assessment of Mental Health on Anxiety Depression and Stress using Machine Learning Models
+
+This project presents a machine learning-based approach to assess mental health conditions such as Depression, Anxiety, and Stress using the DASS-42 dataset. The pipeline includes preprocessing steps like normalization, dimensionality reduction using PCA, and class balancing with SMOTE-ENN. Seven supervised learning models were implemented and evaluated: Logistic Regression, K-Nearest Neighbors, Decision Tree, Random Forest, Gaussian Naïve Bayes, RBFN, and ANN. Each model was compared based on metrics like accuracy, F1 score, ROC-AUC, error rate, and Cohen’s Kappa. The ANN and Logistic Regression models achieved near-perfect classification under optimized PCA and balancing. This repository contains all code, model training scripts, and evaluation steps, enabling reproducibility and future enhancements.
